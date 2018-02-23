@@ -28,7 +28,6 @@ class MusicLibraryController
           list_artists
         when user_input = "list genres"
           list_genres
-        
     end #case
 
     until user_input == "exit"
