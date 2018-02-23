@@ -81,10 +81,10 @@ class MusicLibraryController
     input = user_input.to_i - 1
     list = []
     if 6 < input > 0
-    Song.all.sort {|a, b| a.name <=> b.name }.each_with_index { |song, index|
-       list << "Playing #{song.name} by #{song.artist.name}"}
-       puts list[input] unless list[input] == nil
-       # || list[input] < 0 || list[input] > 6
+      Song.all.sort {|a, b| a.name <=> b.name }.each_with_index { |song, index|
+         list << "Playing #{song.name} by #{song.artist.name}"}
+         puts list[input] unless list[input] == nil
+         # || list[input] < 0 || list[input] > 6
      end #if statement
   end #play_song method
 
