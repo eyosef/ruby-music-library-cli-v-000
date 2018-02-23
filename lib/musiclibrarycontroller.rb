@@ -88,7 +88,7 @@ class MusicLibraryController
       end
   end #play_song method
 
-MusicLibraryController.list_songs
+
 
 
 end #class
