@@ -86,7 +86,7 @@ class MusicLibraryController
          list << "Playing #{song.name} by #{song.artist.name}"}
          puts list[input] unless list[input] == nil
          # || list[input] < 0 || list[input] > 6
-      end 
+      end
   end #play_song method
 
 
