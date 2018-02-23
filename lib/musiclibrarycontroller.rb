@@ -23,12 +23,12 @@ class MusicLibraryController
     user_input = nil
 
     if user_input = "list songs"
-      list_songs 
+      list_songs
     elsif user_input = "list artists"
-      list_artists 
+      list_artists
     elsif user_input = "list genres"
-      list_genres 
-    end 
+      list_genres
+    end
 
 
     until user_input == "exit"
