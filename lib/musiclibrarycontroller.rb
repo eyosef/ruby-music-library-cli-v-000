@@ -21,10 +21,10 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     #user_input = nil
-    #until user_input == "exit"
-      #user_input = gets.chomp
-    #end
-    user_input = gets.chomp unless user_input == "exit"
+    until user_input == "exit"
+      user_input = gets.chomp
+    end
+    user_input = gets.chomp
 
     case user_input
         when "list songs"
