@@ -25,7 +25,7 @@ class MusicLibraryController
       #user_input = gets.chomp
     #end
     user_input = gets.chomp
-    
+
     case user_input
         when "list songs"
           list_songs
@@ -33,6 +33,12 @@ class MusicLibraryController
           list_artists
         when "list genres"
           list_genres
+        when "list artist"
+          list_songs_by_artist 
+        when "list genre"
+          list_songs_by_genre 
+        when "play song"
+          play_song
     end #case
 
   end
