@@ -21,8 +21,14 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     user_input = nil
-    
-    if 
+
+    if user_input = "list songs"
+      list_songs 
+    elsif user_input = "list artists"
+      list_artists 
+    elsif user_input = "list genres"
+      list_genres 
+    end 
 
 
     until user_input == "exit"
