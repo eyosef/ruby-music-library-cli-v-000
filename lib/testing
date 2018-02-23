@@ -1,0 +1,8 @@
+1) Song .new_from_filename invokes the appropriate Findable methods so as to avoid duplic
+ating objects
+    Failure/Error: expect(song.artist).to be(artist)
+      expected #<Artist:22834000> => #<Artist:0x00000002b8d6a0 @name="Thundercat", @artist
+=nil, @songs=[]>
+           got #<Artist:22847240> => #<Artist:0x00000002b93e10 @name="Thundercat", @artist
+=nil, @songs=[#<Song:0x00000002b93d70 @name="For...93e10 ...>, @genre=#<Genre:0x00000002b93
+dc0 @name="dance", @songs=[#<Song:0x00000002b93d70 ...>]>>]>
