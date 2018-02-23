@@ -20,8 +20,6 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
 
-    user_input = nil
-
     case user_input
         when "list songs"
           list_songs
