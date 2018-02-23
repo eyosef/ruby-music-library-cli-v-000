@@ -22,9 +22,10 @@ class MusicLibraryController
 
     #user_input = nil
     #until user_input == "exit"
-      user_input = gets.chomp
+      #user_input = gets.chomp
     #end
-
+    user_input = gets.chomp
+    
     case user_input
         when "list songs"
           list_songs
