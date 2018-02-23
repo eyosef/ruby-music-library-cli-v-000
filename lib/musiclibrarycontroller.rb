@@ -24,7 +24,7 @@ class MusicLibraryController
     #until user_input == "exit"
       #user_input = gets.chomp
     #end
-    user_input = gets.chomp until user_input == "exit"
+    user_input = gets.chomp unless user_input == "exit"
 
     case user_input
         when "list songs"
