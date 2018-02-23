@@ -83,7 +83,7 @@ class MusicLibraryController
 
     Song.all.sort {|a, b| a.name <=> b.name }.each_with_index { |song, index|
        list << "Playing #{song.name} by #{song.artist.name}"}
-       puts list[input]
+       puts list[input] unless input = nil
   end #play_song method
 
 
