@@ -21,6 +21,9 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     user_input = nil
+    
+    if 
+
 
     until user_input == "exit"
       user_input = gets.chomp
