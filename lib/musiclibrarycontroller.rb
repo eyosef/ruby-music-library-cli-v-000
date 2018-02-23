@@ -22,7 +22,7 @@ class MusicLibraryController
 
     user_input = nil
     case invoke
-        if user_input = "list songs"
+        when user_input = "list songs"
           list_songs
         elsif user_input = "list artists"
           list_artists
