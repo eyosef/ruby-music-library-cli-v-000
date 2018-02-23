@@ -31,9 +31,6 @@ class MusicLibraryController
           list_genres
     end #case
 
-    until user_input == "exit"
-      user_input = gets.chomp
-    end
   end
 
   def list_songs
