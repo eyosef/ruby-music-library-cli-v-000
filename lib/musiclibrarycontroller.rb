@@ -21,15 +21,15 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     user_input = nil
-    case invoke 
-    if user_input = "list songs"
-      list_songs
-    elsif user_input = "list artists"
-      list_artists
-    elsif user_input = "list genres"
-      list_genres
-    end
-  end #case
+    case invoke
+        if user_input = "list songs"
+          list_songs
+        elsif user_input = "list artists"
+          list_artists
+        elsif user_input = "list genres"
+          list_genres
+        end
+    end #case
 
     until user_input == "exit"
       user_input = gets.chomp
