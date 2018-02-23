@@ -21,9 +21,9 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     user_input = nil
-
+    
     case user_input
-        when user_input = "list songs"
+        when user_input == "list songs"
           list_songs
         when user_input = "list artists"
           list_artists
