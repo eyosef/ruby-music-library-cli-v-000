@@ -26,7 +26,7 @@ class MusicLibraryController
           list_songs
         when user_input = "list artists"
           list_artists
-        elsif user_input = "list genres"
+        when user_input = "list genres"
           list_genres
         end
     end #case
